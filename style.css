@@ -1,0 +1,444 @@
+/* Background ----------------------------------------*/
+
+body {
+    background: radial-gradient(50% 50% at 100% 0,#727070 0% 5%,#3b055a 6% 15%,#727070 16% 25%,#3b055a 26% 35%,#727070 36% 45%, #3b055a 46% 55%,#727070 56% 65%,#3b055a 66% 75%,#727070 76% 85%,#3b055a 86% 95%, #0000 96%), radial-gradient(50% 50% at 0 100%,#727070 0% 5%,#3b055a 6% 15%,#727070 16% 25%,#3b055a 26% 35%,#727070 36% 45%, #3b055a 46% 55%,#727070 56% 65%,#3b055a 66% 75%,#727070 76% 85%,#3b055a 86% 95%, #0000 96%), radial-gradient(50% 50%,#727070 0% 5%,#3b055a 6% 15%,#727070 16% 25%,#3b055a 26% 35%,#727070 36% 45%, #3b055a 46% 55%,#727070 56% 65%,#3b055a 66% 75%,#727070 76% 85%,#3b055a 86% 95%, #0000 96%), radial-gradient(50% 50%,#727070 0% 5%,#3b055a 6% 15%,#727070 16% 25%,#3b055a 26% 35%,#727070 36% 45%, #3b055a 46% 55%,#727070 56% 65%,#3b055a 66% 75%,#727070 76% 85%,#3b055a 86% 95%, #0000 96%) 32px 32px;
+    background-size: 64px 64px;
+    background-color: #727070;
+    max-width: 100%;
+    overflow-x: hidden;             
+}
+
+/* Text style ----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+li, a, button {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: "montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    resize: none;
+    position: relative;
+    top: -18px;
+    left: 50px;
+
+}
+
+.about {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.abouttext {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation bar ------------------------------------*/
+
+header {
+    display: flex;
+    background-color: #1C1B1B;
+    position: relative;
+    height: 90px;
+    width: 1368px;
+    margin-left: -2%;
+}
+
+.home {
+    position: relative;
+    top: 19px;
+    left: 9rem;
+
+}
+
+.acoustic {
+    position: relative;
+    top: -2px;
+    left: 14rem;
+}
+
+.electric {
+    position: relative;
+    top: -23px;
+    left: 26rem;
+}
+
+.bass {
+    position: relative;
+    top: -44px;
+    left: 38rem;
+}
+
+.nav_links {
+    list-style: none;
+    position: relative;
+    top: 0in;
+    margin-bottom: 15in;
+}
+
+    .nav_links li {
+        display: block;
+        padding: 0px px;
+    }
+
+        .nav_links li a {
+            transition: all 0.3s ease 0s;
+        }
+
+            .nav_links li a:hover {
+                color: #700b0b
+            }
+
+.dropdown {
+    position: relative;
+    top: 26px;
+    left: 42.3rem;  
+}
+
+.dropdownbtn {
+    padding: 9px 25px;
+    background-color: #2e3f9f;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+    .dropdownbtn:hover {
+        background-color: #1c2371;
+    }
+
+.dropdown-content {
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #212122;
+    -webkit-box-shadow: -1.5px 11px 23.5px 9px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: -1.5px 11px 23.5px 9px rgba(0, 0, 0, 0.32);
+    box-shadow: -1.5px 11px 23.5px 9px rgba(0, 0, 0, 0.32);
+    z-index: 1;
+    position: relative;
+    left: -11px;      
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    align-content: center;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content:hover a {
+    transition: all 0.3s ease 0s;
+}
+
+.viber:hover {
+    color: #7360f2;
+}
+
+.discord:hover {
+    color: #5865f2;
+}
+
+.telegram:hover {
+    color: #0088cc;
+}
+
+.facebook:hover {
+    color: #28589c;
+}
+
+.instagram:hover {
+    color: #bc2a8b;
+}
+
+.tiktok:hover {
+    color: #ff0050;
+}
+
+.youtube:hover {
+    color: #ff0000;
+}
+/* Contents ------------------------------------------*/
+
+.backgroundcon {
+    display: block;
+    background-color: #1C1B1B;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 9rem;
+    border-radius: 20px;
+    margin-right: auto;
+    -webkit-box-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    -moz-window-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    box-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    height: 10in;
+    width: 11in;
+}
+
+.info {
+    position: relative;
+    top: 0.3in;
+    margin-right: 6.5in;
+    margin-left: 19px;
+    margin-bottom: 5rem;
+    padding: 1px 2%;
+}
+
+.frontimg {
+    position: relative; 
+    top: 30px;
+    left: 39px;
+    border-radius: 0;
+}
+
+.imgfront {
+    border-radius: 10px;
+    max-width: auto;
+}
+
+.video {
+    position: relative;
+    margin-right: auto;
+    margin-left: 5.4in;
+    bottom: 3.3in;
+    padding: 1px 2%;
+}
+/* img products ---------------------------------------*/
+
+.container {
+    padding: 2rem;
+    }
+    
+    .slider-wrapper {
+        position: relative;
+        max-width: auto;
+        margin: 0 auto;
+    }
+    
+    .slider {
+        display: flex;
+        aspect-ratio: auto;
+        overflow-x: hidden;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        border-radius: 0.5rem;
+    }
+    
+    .slider img {
+        scroll-snap-align: start;
+    }
+    
+    .slider-nav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        z-index: 1;
+    }
+
+/* Acoustic products ----------------------------------*/
+
+/* TS-366-S */
+
+.TS-366M-Sblock {
+    display: block;
+    -webkit-box-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    -moz-window-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    box-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    background-color: #3b055a;
+    border-radius: 5px;
+    height: 280px;
+    width: 161px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  
+}
+
+.TS-366M-Simg {
+    border-radius: 5px;
+    max-width: auto;
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+
+.TS-366M-Sbox {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    left: 16px;
+}
+
+.TS-366M-Sbox:hover {
+    color: darkgray;
+}
+
+/* TS-366-S INFO */
+
+.TS-366M-Sinfo {
+    border-radius: 5px;
+    height: 230px;
+    width: 1000px;
+    position: absolute;
+    top: 6.7in;
+    left: 29px;
+}
+
+.TS-366M-Stext {
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Electric products ----------------------------------*/
+
+/* ST1 */
+
+.ST1block {
+    display: block;
+    -webkit-box-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    -moz-window-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    box-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    background-color: #3b055a;
+    border-radius: 5px;
+    height: 280px;
+    width: 161px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  
+}
+
+.ST1img {
+    border-radius: 5px;
+    max-width: auto;
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+
+.ST1box {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    left: 45px;
+}
+
+.ST1box:hover {
+    color: darkgray;
+}
+
+/* ST1 INFO */
+
+.ST1info {
+    border-radius: 5px;
+    height: 230px;
+    width: 1000px;
+    position: absolute;
+    top: 6.3in;
+    left: 29px;
+}
+
+.ST1text {
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* bass products ----------------------------------*/
+
+/* BS-100NA */
+
+.BS-100NAblock {
+    display: block;
+    -webkit-box-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    -moz-window-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    box-shadow: 0 0 10px 5.5px rgba(58, 5, 89, 0.47);
+    background-color: #3b055a;
+    border-radius: 5px;
+    height: 280px;
+    width: 161px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  
+}
+
+.BS-100NAimg {
+    border-radius: 5px;
+    max-width: auto;
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+
+.BS-100NAbox {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    left: 22.5px;
+}
+
+.BS-100NAbox:hover {
+    color: darkgray;
+}
+
+/* ST1 INFO */
+
+.BS-100NAinfo {
+    border-radius: 5px;
+    height: 230px;
+    width: 1000px;
+    position: absolute;
+    top: 6.3in;
+    left: 29px;
+}
+
+.BS-100NAtext {
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
